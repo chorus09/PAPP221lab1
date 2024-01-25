@@ -8,7 +8,7 @@
             library.Add(new Book("The Martian", "Andy Weir", "978-5-432-10987-6"));
             library.Add(new Book("To Kill a Mockingbird", "Harper Lee", "978-4-321-09876-5"));
 
-            foreach(var item in library?.GetBooks()) {
+            foreach(var item in library.GetBooks()) {
                 Console.WriteLine(item?.ToString());
             }
 
